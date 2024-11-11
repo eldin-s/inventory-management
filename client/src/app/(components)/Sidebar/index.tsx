@@ -82,7 +82,12 @@ const Sidebar = () => {
         }`}
       >
         <div className="">
-          <Image src={logo} width={40} height={40} alt="stock" />
+          <Image
+            src="https://s3-managementinvetory.s3.eu-central-1.amazonaws.com/logo.png"
+            width={40}
+            height={40}
+            alt="ESSTOCK Logo"
+          />
         </div>
         <h1
           className={`${
