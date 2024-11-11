@@ -38,7 +38,7 @@ const CardSalesSummary = () => {
     : "N/A";
 
   if (isError) {
-    return <div className="m-5">Failed to fetch data</div>;
+    return <div className="m-5">Failed to get data</div>;
   }
 
   return (
